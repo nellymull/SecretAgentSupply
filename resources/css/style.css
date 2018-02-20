@@ -2,3 +2,7 @@
   color: white;
   background-color: black;
 }
+
+.new-arrival {
+  background-image: url("../images/moto.jpeg");
+}
