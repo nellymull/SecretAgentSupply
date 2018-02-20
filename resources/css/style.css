@@ -1,8 +1,35 @@
-.header {
+* {
+  font-size: 18px;
   color: white;
-  background-color: black;
 }
 
+body{
+  width: 960px;
+  text-align: center;
+}
+
+
+/*header div*/
+.header {
+  background-color: black;
+  width:
+
+}
+
+.logo {
+  height: 1.5rem;
+}
+
+
+/*new-arrival div*/
 .new-arrival {
   background-image: url("../images/moto.jpeg");
 }
+
+/*red-navigation div*/
+
+/*all-three div*/
+
+/*info div*/
+
+/*footer div*/
