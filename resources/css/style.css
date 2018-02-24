@@ -1,29 +1,41 @@
 * {
   font-size: 18px;
   color: white;
+  margin: 0 auto;
 }
 
 body{
-  width: 960px;
   text-align: center;
+  font-family: helvetica;
+  width: 960px;
 }
 
 
 /*header div*/
 .header {
   background-color: black;
-  width:
-
+  font-size: 1rem;
+  display: flex;
+  padding:
 }
 
 .logo {
   height: 1.5rem;
+  padding: 0.5rem;
+}
+
+h2{
+  font-size: 1rem;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
 }
 
 
 /*new-arrival div*/
 .new-arrival {
-  background-image: url("../images/moto.jpeg");
+  background-image: url("../images/moto.jpeg"
+  );
+  height: 25rem;
 }
 
 /*red-navigation div*/
