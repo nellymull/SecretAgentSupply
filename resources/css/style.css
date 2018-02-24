@@ -40,7 +40,6 @@ h2{
   height: 25rem;
   font-weight: bold;
   text-align: left;
-
 }
 
 .inside-new {
@@ -49,17 +48,24 @@ h2{
   padding: 2rem 3rem;
   position: relative;
   top: 9rem;
-
-
 }
+
 .new-body {
   font-size: 2rem;
   padding-top: 0.25rem;
-
 }
 
 /*red-navigation div*/
+.red-navigation {
+  background-color: firebrick;
+  display: flex;
+  justify-content: space-around;
+}
 
+.inside-red {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
 /*all-three div*/
 
 /*info div*/
