@@ -1,13 +1,12 @@
 * {
   font-size: 18px;
   color: white;
-  margin: 0 auto;
 }
 
 body{
   text-align: center;
   font-family: helvetica;
-  max-width: 1024px;
+  max-width: 960px;
 }
 
 
@@ -79,11 +78,11 @@ h2{
   width: 30%;
   overflow: hidden;
 }
+
 .three-img {
   max-height: 9rem;
   padding: 2rem;
   width: auto;
-
 }
 
 .three-p {
@@ -93,5 +92,21 @@ h2{
 }
 
 /*info div*/
+.info {
+  border: 1px solid black;
+  display: flex;
+}
+.info-container {
+  border: 1px solid black;
+
+}
+.container-header {
+  border: 1px solid black;
+  background-color: black;
+}
+
+.data-color {
+  color: black;
+}
 
 /*footer div*/
