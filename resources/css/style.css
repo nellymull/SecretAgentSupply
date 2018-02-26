@@ -6,9 +6,13 @@
 body{
   text-align: center;
   font-family: helvetica;
-  max-width: 960px;
+  width: 1250px;
 }
 
+.new-arrival, .header, .info, .all-three, .footer  {
+ padding-left: 4%;
+ padding-right: 4%;
+}
 
 /*header div*/
 .header {
@@ -46,6 +50,7 @@ h2{
   width: 20rem;
   padding: 2rem 3rem;
   position: relative;
+
   top: 9rem;
 }
 
@@ -69,14 +74,14 @@ h2{
 /*all-three div*/
 .all-three {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 3rem;
 }
 
 .three-box {
   border: 4px solid black;
   width: 30%;
-  overflow: hidden;
+  overflow: hidden;/
 }
 
 .three-img {
@@ -93,20 +98,39 @@ h2{
 
 /*info div*/
 .info {
-  border: 1px solid black;
   display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
 }
 .info-container {
-  border: 1px solid black;
+  width: 35%;
 
 }
 .container-header {
   border: 1px solid black;
   background-color: black;
+  padding: 1rem 2rem;
+  text-align: left;
+
 }
 
 .data-color {
   color: black;
+  text-align: left;
 }
 
 /*footer div*/
+.footer {
+  background-color: black;
+  text-align: left;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*queries*/
+@media only screen and (max-width: 1024px) and (orientation: portrait){
+
+}
